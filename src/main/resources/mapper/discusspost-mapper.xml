@@ -1,0 +1,71 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hljit.examol.mapper.DiscussPostMapper">
+    <resultMap id="BaseResultMap" type="com.hljit.examol.entity.DiscussPost">
+    <id column="id" property="id" jdbcType="INTEGER"/>
+    <result column="userId" property="userId" jdbcType="INTEGER"/>
+    <result column="title" property="title" jdbcType="VARCHAR"/>
+    <result column="content" property="content" jdbcType="VARCHAR"/>
+    <result column="type" property="type" jdbcType="INTEGER"/>
+    <result column="status" property="status" jdbcType="INTEGER"/>
+    <result column="createTime" property="createTime" jdbcType="DATE"/>
+    <result column="commentCount" property="commentCount" jdbcType="INTEGER"/>
+    <result column="score" property="score" jdbcType="DOUBLE"/>
+    </resultMap>
+    <resultMap id="DiscussWithUser" type="com.hljit.examol.entity.DiscussPost" extends="BaseResultMap">
+    <association property="user" javaType="com.hljit.examol.entity.User">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+    </association>
+    </resultMap>
+    <sql id="selectFields">
+        `id`, `user_id`, `title`, `content`, `type`, `status`, `create_time`, `comment_count`, `score`
+    </sql>
+
+    <sql id="insertFields">
+        `user_id`, `title`, `content`, `type`, `status`, `create_time`, `comment_count`, `score`
+    </sql>
+
+    <select id="selectDiscussPosts" resultType="com.hljit.examol.entity.DiscussPost">
+        select
+        <include refid="selectFields"></include>
+        from discuss_post
+        where status != 2
+        <if test="userId!=0">
+            and user_id = #{userId}
+        </if>
+        order by type desc, create_time desc
+        limit #{offset}, #{limit}
+    </select>
+
+    <select id="selectDiscussPosts2" resultMap="DiscussWithUser">
+        select discuss_post.*,user1.* from  discuss_post,user1  where discuss_post.user_id = user1.id AND discuss_post.status != 2 order by discuss_post.type desc, discuss_post.create_time desc
+    </select>
+
+    <select id="selectDiscussPostRows" resultType="int">
+        select count(id)
+        from discuss_post
+        where status != 2
+        <if test="userId!=0">
+            and user_id = #{userId}
+        </if>
+    </select>
+
+    <!--<select id="selectDiscussPostById" resultType="com.hljit.examol.entity.DiscussPost">-->
+        <!--select-->
+        <!--<include refid="selectFields"/>-->
+        <!--from discuss_post-->
+        <!--where id = #{id}-->
+    <!--</select>-->
+
+    <insert id="insertDiscussPost" parameterType="com.hljit.examol.entity.DiscussPost" keyProperty="id">
+        insert into discuss_post(<include refid="insertFields"/>)
+        values (#{userId}, #{title}, #{content}, #{type}, #{status}, #{createTime}, #{commentCount}, #{score})
+    </insert>
+
+    <update id="updateCommentCount">
+        update community.discuss_post set comment_count = #{commentCount} where id = #{id}
+    </update>
+</mapper>
