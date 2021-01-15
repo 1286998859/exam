@@ -66,6 +66,6 @@
     </insert>
 
     <update id="updateCommentCount">
-        update community.discuss_post set comment_count = #{commentCount} where id = #{id}
+        update exam.discuss_post set comment_count = #{commentCount} where id = #{id}
     </update>
 </mapper>

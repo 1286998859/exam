@@ -43,7 +43,7 @@ public interface DiscussPostService {
      * @param id
      * @return
      */
-    DiscussPost selectDiscussPostById(int id);
+    DiscussPost selectDiscussPostById(String id);
 
     /**
      * 更新帖子评论数量

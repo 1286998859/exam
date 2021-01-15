@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hljit.examol.entity.DiscussPost;
 import com.hljit.examol.mapper.DiscussPostMapper;
+import com.hljit.examol.service.DiscussPostService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.util.HtmlUtils;
 
@@ -11,9 +13,9 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @Service
-public class DiscussPostServiceImpl implements DiscussPostMapper {
+public class DiscussPostServiceImpl implements DiscussPostService {
 
-    @Resource
+    @Autowired(required = true)
     DiscussPostMapper discussPostMapper;
 
 //    @Resource
@@ -49,6 +51,8 @@ public class DiscussPostServiceImpl implements DiscussPostMapper {
 
         return discussPostMapper.insertDiscussPost(post);
     }
+
+
 
     @Override
     public DiscussPost selectDiscussPostById(String id) {

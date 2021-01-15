@@ -57,7 +57,7 @@ public interface DiscussPostMapper {
      * @param commentCount
      * @return
      */
-    Integer updateCommentCount(int id, int commentCount);
+    Integer updateCommentCount(@Param("id") int id, @Param("commentCount") int commentCount);
 
     @Insert("insert INTO discuss_post (user_id,title,content,type,status,create_time) VALUES (#{userId}," +
             "#{title},#{content},#{type},#{status},#{createTime})")
