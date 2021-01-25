@@ -1,11 +1,14 @@
 package com.hljit.examol.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hljit.examol.entity.ApiResult;
 import com.hljit.examol.entity.Comment;
 import com.hljit.examol.entity.DiscussPost;
 import com.hljit.examol.entity.User;
 import com.hljit.examol.serviceImpl.CommentServiceImpl;
 import com.hljit.examol.serviceImpl.DiscussPostServiceImpl;
+import com.hljit.examol.serviceImpl.StudentServiceImpl;
 import com.hljit.examol.serviceImpl.UserServiceImpl;
 import com.hljit.examol.util.ApiResultHandler;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +29,48 @@ public class DiscussPostController {
     @Autowired
     private CommentServiceImpl commentServiceImpl;
 
+    @Autowired
+    private StudentServiceImpl studentService;
+
+
+
+    @GetMapping("/discussPostsByKeyword/{page}/{size}/{keyword}")
+    public ApiResult findDiscussByKeyword(@PathVariable Integer page, @PathVariable Integer size, @PathVariable String keyword){
+        Page<DiscussPost> discussPostPage = new Page<>(page,size);
+        IPage<DiscussPost> res = discussPostServiceImpl.findDiscussByKeyword(discussPostPage,keyword);
+        List<DiscussPost> records = res.getRecords();
+        for (DiscussPost dis: records) {
+            User user = userService.queryUserById(dis.getUserId());
+            dis.setUser(user);
+        }
+
+        return  ApiResultHandler.buildApiResult(200,"分页搜索查询贴子",res);
+    }
+
+    @GetMapping("/discussPostsByKeyword/{page}/{size}")
+    public ApiResult findDiscussByKeyword2(@PathVariable Integer page, @PathVariable Integer size){
+        Page<DiscussPost> discussPostPage = new Page<>(page,size);
+        IPage<DiscussPost> res = discussPostServiceImpl.findDiscuss(discussPostPage);
+        List<DiscussPost> records = res.getRecords();
+        for (DiscussPost dis: records) {
+            User user = userService.queryUserById(dis.getUserId());
+            dis.setUser(user);
+        }
+
+        return  ApiResultHandler.buildApiResult(200,"分页搜索查询贴子",res);
+    }
+
+    @GetMapping("/discussPostAll/{page}/{size}")
+    public ApiResult findDiscussAll(@PathVariable Integer page, @PathVariable Integer size){
+        Page<DiscussPost> discussPostPage = new Page<>(page,size);
+        IPage<DiscussPost> res = discussPostServiceImpl.findDiscussAll(discussPostPage);
+        List<DiscussPost> records = res.getRecords();
+        for (DiscussPost dis: records) {
+            User user = userService.queryUserById(dis.getUserId());
+            dis.setUser(user);
+        }
+        return  ApiResultHandler.buildApiResult(200,"分页查询贴子",res);
+    }
 
 
 
@@ -34,6 +79,8 @@ public class DiscussPostController {
         discussPost.setCreateTime(new Date());
         discussPost.setStatus(0);
         discussPost.setType(0);
+        discussPost.setCommentCount(0);
+        discussPost.setScore(0.0);
         if(discussPostServiceImpl.addDiscuss(discussPost) == 1){
             return ApiResultHandler.buildApiResult(200,"发布成功",null);
         }else {
@@ -65,8 +112,6 @@ public class DiscussPostController {
                 commentVo.put("comment", comment);
                 // 作者
                 commentVo.put("user", userService.queryUserById(comment.getUserId()));
-
-
 
                 // 回复列表
                 List<Comment> replyList = commentServiceImpl.selectCommentsByEntityComment(comment.getId());
@@ -105,6 +150,43 @@ public class DiscussPostController {
             return ApiResultHandler.buildApiResult(400,"发布失败",null);
         }
 
+    }
+
+
+    @RequestMapping("/makeTop/{id}")
+    public ApiResult makeTop(@PathVariable Integer id){
+        int res = discussPostServiceImpl.makeTop(id);
+        return  ApiResultHandler.buildApiResult(200,"置顶成功",res);
+    }
+
+    @RequestMapping("/cancelTop/{id}")
+    public ApiResult cancelTop(@PathVariable Integer id){
+        int res = discussPostServiceImpl.cancelTop(id);
+        return  ApiResultHandler.buildApiResult(200,"取消置顶成功",res);
+    }
+
+    @RequestMapping("/makePerfect/{id}")
+    public ApiResult makePerfect(@PathVariable Integer id){
+        int res = discussPostServiceImpl.makePerfect(id);
+        return  ApiResultHandler.buildApiResult(200,"加精成功",res);
+    }
+
+    @RequestMapping("/cancelPerfect/{id}")
+    public ApiResult cancelPerfect(@PathVariable Integer id){
+        int res = discussPostServiceImpl.cancelPerfect(id);
+        return  ApiResultHandler.buildApiResult(200,"取消加精成功",res);
+    }
+
+    @RequestMapping("/makeBan/{id}")
+    public ApiResult makeBan(@PathVariable Integer id){
+        int res = discussPostServiceImpl.makeBan(id);
+        return  ApiResultHandler.buildApiResult(200,"拉黑成功",res);
+    }
+
+    @RequestMapping("/cancelBan/{id}")
+    public ApiResult cancelBan(@PathVariable Integer id){
+        int res = discussPostServiceImpl.cancelBan(id);
+        return  ApiResultHandler.buildApiResult(200,"取消拉黑成功",res);
     }
 
 

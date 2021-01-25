@@ -22,4 +22,6 @@ public interface StudentService {
 
     int updatePwd(Student student);
     int add(Student student);
+
+
 }

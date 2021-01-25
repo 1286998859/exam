@@ -3,6 +3,7 @@ package com.hljit.examol.serviceImpl;
 import com.hljit.examol.entity.Admin;
 import com.hljit.examol.entity.Student;
 import com.hljit.examol.entity.Teacher;
+import com.hljit.examol.entity.User;
 import com.hljit.examol.mapper.LoginMapper;
 import com.hljit.examol.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,5 +28,10 @@ public class LoginServiceImpl implements LoginService {
     @Override
     public Student studentLogin(Integer username, String password) {
         return loginMapper.studentLogin(username,password);
+    }
+
+    @Override
+    public User userLogin(String username, String password) {
+        return loginMapper.userLogin(username,password);
     }
 }

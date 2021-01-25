@@ -1,5 +1,7 @@
 package com.hljit.examol.serviceImpl;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hljit.examol.entity.User;
 import com.hljit.examol.mapper.UserMapper;
 import com.hljit.examol.service.UserService;
@@ -46,5 +48,30 @@ public class UserServiceImpl implements UserService {
     @Override
     public int updateHeader(Integer userId, String headerUrl) {
         return 0;
+    }
+
+    @Override
+    public int updatePwd(User user) {
+        return userMapper.updatePwd(user);
+    }
+
+    @Override
+    public IPage<User> findAll(Page<User> page) {
+        return userMapper.findAll(page);
+    }
+
+    @Override
+    public int banUserById(Integer id) {
+        return userMapper.banUserById(id);
+    }
+
+    @Override
+    public int pickUserById(Integer id) {
+        return userMapper.pickUserById(id);
+    }
+
+    @Override
+    public int deleteUserById(Integer id) {
+        return userMapper.deleteUserById(id);
     }
 }

@@ -38,7 +38,23 @@ public class CommentController {
             return ApiResultHandler.buildApiResult(400,"发布失败",null);
         }
 
+    }
 
+
+    @PostMapping("/add1")
+    public ApiResult addComment1(@RequestBody Comment comment) {
+
+        comment.setStatus(0);
+        comment.setCreateTime(new Date());
+        if (comment.getTargetId() == null) {
+            comment.setTargetId(0);
+        }
+        Integer integer = commentService.insertComment(comment);
+        if(integer > 0){
+            return ApiResultHandler.buildApiResult(200,"发布成功",null);
+        }else {
+            return ApiResultHandler.buildApiResult(400,"发布失败",null);
+        }
 
     }
 

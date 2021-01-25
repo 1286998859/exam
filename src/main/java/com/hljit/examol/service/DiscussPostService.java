@@ -55,4 +55,21 @@ public interface DiscussPostService {
     Integer updateCommentCount(int id, int commentCount);
 
     int addDiscuss(DiscussPost discussPost);
+
+    IPage<DiscussPost> findDiscussByKeyword(Page<DiscussPost> discussPostPage, String keyword);
+
+    IPage<DiscussPost> findDiscuss(Page<DiscussPost> discussPostPage);
+
+    IPage<DiscussPost> findDiscussAll(Page<DiscussPost> discussPostPage);
+
+    int makeTop(Integer id);
+    int cancelTop(Integer id);
+
+    int makePerfect(Integer id);
+
+    int cancelPerfect(Integer id);
+
+    int makeBan(Integer id);
+
+    int cancelBan(Integer id);
 }

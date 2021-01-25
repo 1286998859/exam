@@ -45,7 +45,6 @@ public class StudentController {
             User user = userService.queryUserById(dis.getUserId());
             dis.setUser(user);
         }
-
         return  ApiResultHandler.buildApiResult(200,"分页查询贴子",res);
     }
 

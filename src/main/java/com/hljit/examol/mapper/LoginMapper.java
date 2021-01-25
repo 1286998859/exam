@@ -3,6 +3,7 @@ package com.hljit.examol.mapper;
 import com.hljit.examol.entity.Admin;
 import com.hljit.examol.entity.Student;
 import com.hljit.examol.entity.Teacher;
+import com.hljit.examol.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -21,6 +22,6 @@ public interface LoginMapper {
             "email,cardId,sex,role from student where studentId = #{username} and pwd = #{password}")
     public Student studentLogin(@Param("username")Integer username, @Param("password")String password);
 
-
-
+    @Select("select * from exam.user where username = #{username} and password = #{password}")
+    User userLogin(@Param("username") String username,@Param("password") String password);
 }

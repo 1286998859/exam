@@ -68,4 +68,50 @@ public class DiscussPostServiceImpl implements DiscussPostService {
 
         return discussPostMapper.addDiscuss(discussPost);
     }
+
+    @Override
+    public IPage<DiscussPost> findDiscussByKeyword(Page<DiscussPost> discussPostPage, String keyword) {
+
+        return discussPostMapper.findDiscussByKeyword(discussPostPage,keyword);
+    }
+
+    @Override
+    public IPage<DiscussPost> findDiscuss(Page<DiscussPost> discussPostPage) {
+        return discussPostMapper.findDiscuss(discussPostPage);
+    }
+
+    @Override
+    public IPage<DiscussPost> findDiscussAll(Page<DiscussPost> discussPostPage) {
+        return discussPostMapper.findDiscussAll(discussPostPage);
+    }
+
+    @Override
+    public int makeTop(Integer id) {
+        return discussPostMapper.makeTop(id);
+    }
+
+    @Override
+    public int cancelTop(Integer id) {
+        return discussPostMapper.cancelTop(id);
+    }
+
+    @Override
+    public int makePerfect(Integer id) {
+        return discussPostMapper.makePerfect(id);
+    }
+
+    @Override
+    public int cancelPerfect(Integer id) {
+        return discussPostMapper.cancelPerfect(id);
+    }
+
+    @Override
+    public int makeBan(Integer id) {
+        return discussPostMapper.makeBan(id);
+    }
+
+    @Override
+    public int cancelBan(Integer id) {
+        return discussPostMapper.cancelBan(id);
+    }
 }

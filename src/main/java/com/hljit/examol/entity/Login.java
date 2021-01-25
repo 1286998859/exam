@@ -2,14 +2,14 @@ package com.hljit.examol.entity;
 
 public class Login {
 
-    private Integer username;
+    private String username;
     private String password;
 
-    public Integer getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsername(Integer username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 

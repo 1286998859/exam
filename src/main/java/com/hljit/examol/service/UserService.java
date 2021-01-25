@@ -1,5 +1,7 @@
 package com.hljit.examol.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hljit.examol.entity.User;
 
 import java.util.Map;
@@ -72,4 +74,14 @@ public interface UserService {
      * @return
      */
     int updateHeader(Integer userId, String headerUrl);
+
+    int updatePwd(User user);
+
+    IPage<User> findAll(Page<User> page);
+
+    int banUserById(Integer id);
+
+    int pickUserById(Integer id);
+
+    int deleteUserById(Integer id);
 }
