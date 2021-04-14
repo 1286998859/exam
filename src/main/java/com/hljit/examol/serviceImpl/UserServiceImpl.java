@@ -74,4 +74,9 @@ public class UserServiceImpl implements UserService {
     public int deleteUserById(Integer id) {
         return userMapper.deleteUserById(id);
     }
+
+    @Override
+    public IPage<User> findUserByKeyword(Page<User> userPage, String keyword) {
+        return userMapper.findUserByKeyword(userPage,keyword);
+    }
 }

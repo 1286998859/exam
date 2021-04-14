@@ -3,10 +3,7 @@ package com.hljit.examol.mapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hljit.examol.entity.User;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 @Mapper
 public interface UserMapper {
@@ -29,4 +26,7 @@ public interface UserMapper {
 
     @Delete("delete from exam.user where id = #{id}")
     int deleteUserById(Integer id);
+
+    @Select("select * from  exam.user where  username like concat('%',#{keyword},'%') order by type desc, create_time desc")
+    IPage<User> findUserByKeyword(@Param("userPage") Page<User> userPage, @Param("keyword") String keyword);
 }

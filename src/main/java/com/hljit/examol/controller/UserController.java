@@ -47,4 +47,19 @@ public class UserController {
         int res = userService.deleteUserById(id);
         return  ApiResultHandler.buildApiResult(200,"删除成功",res);
     }
+
+    @GetMapping("/usersByKeyword/{page}/{size}/{keyword}")
+    public ApiResult findUserByKeyword(@PathVariable Integer page, @PathVariable Integer size, @PathVariable String keyword){
+        Page<User> userPage = new Page<>(page,size);
+        IPage<User> res = userService.findUserByKeyword(userPage,keyword);
+        return  ApiResultHandler.buildApiResult(200,"分页搜索查询User",res);
+    }
+
+    @GetMapping("/usersByKeyword/{page}/{size}")
+    public ApiResult findUserByKeyword(@PathVariable Integer page, @PathVariable Integer size){
+        Page<User> userPage = new Page<>(page,size);
+        IPage<User> res = userService.findAll(userPage);
+        return  ApiResultHandler.buildApiResult(200,"分页搜索查询User",res);
+    }
+
 }

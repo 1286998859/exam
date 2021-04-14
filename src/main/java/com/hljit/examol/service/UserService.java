@@ -84,4 +84,6 @@ public interface UserService {
     int pickUserById(Integer id);
 
     int deleteUserById(Integer id);
+
+    IPage<User> findUserByKeyword(Page<User> userPage, String keyword);
 }

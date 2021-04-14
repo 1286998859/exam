@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25d66c0e-ba93-44e2-ace5-d4e7bcc8f680" name="Default" comment="" />
+    <list default="true" id="25d66c0e-ba93-44e2-ace5-d4e7bcc8f680" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/exam/README.md" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DiscussPostController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/DiscussPostController.java">
+      <file leaf-file-name="AnswerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/AnswerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="187" column="55" lean-forward="true" selection-start-line="187" selection-start-column="55" selection-end-line="187" selection-end-column="55" />
+            <state relative-caret-position="336">
+              <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/UserController.java">
+      <file leaf-file-name="ScoreController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/ScoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="41" column="64" lean-forward="true" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+            <state relative-caret-position="816">
+              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,71 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscussPost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/DiscussPost.java">
+      <file leaf-file-name="ExamManage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/ExamManage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/User.java">
+      <file leaf-file-name="ScoreService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/ScoreService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscussPostServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/DiscussPostServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="114" column="38" lean-forward="true" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2777#2778#0" expanded="true" />
-                <element signature="e#2816#2817#0" expanded="true" />
-                <element signature="e#2840#2841#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
-                <element signature="e#2978#2979#0" expanded="true" />
-                <element signature="e#3036#3037#0" expanded="true" />
-                <element signature="e#3060#3061#0" expanded="true" />
-                <element signature="e#3112#3113#0" expanded="true" />
-                <element signature="e#3136#3137#0" expanded="true" />
-                <element signature="e#3190#3191#0" expanded="true" />
-                <element signature="e#3214#3215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscussPostService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/DiscussPostService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="120">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscussPostMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/DiscussPostMapper.java">
+      <file leaf-file-name="ScoreServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/ScoreServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="93" column="66" lean-forward="true" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
+            <state relative-caret-position="168">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,11 +72,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/UserMapper.java">
+      <file leaf-file-name="ScoreMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/ScoreMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+            <state relative-caret-position="456">
+              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Score.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamManageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/ExamManageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamManageServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/ExamManageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamManageMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/ExamManageMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,9 +136,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -148,44 +149,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/ApiResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/util/ApiResultHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hljit/examol/ExamOlApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/dto/DiscussUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/DiscussPost.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/config/CrossDomainInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/comment-mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/CommentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/LoginMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/DiscussPostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/DiscussPostServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/DiscussPostMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/DiscussPostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/ExamManage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/ExamManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/ExamManageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/ExamManageMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/ExamManageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/FillQuestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/JudgeQuestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/MultiQuestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/MultiQuestionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/JudgeQuestionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/FillQuestionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/MultiQuestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/MultiQuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/JudgeQuestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/FillQuestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/FillQuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/JudgeQuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/MultiQuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/JudgeQuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/FillQuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/PaperManage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/PaperMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/PaperService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/PaperServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/PaperController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/AnswerVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/AnswerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/AnswerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/AnswerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/AnswerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/service/ScoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/ScoreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/ScoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/ScoreMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Score.java" />
       </list>
     </option>
   </component>
@@ -228,9 +242,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="610" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-77" />
+    <option name="y" value="20" />
     <option name="width" value="1180" />
     <option name="height" value="970" />
   </component>
@@ -240,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,7 +415,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -509,11 +523,15 @@
       <workItem from="1611456587956" duration="6146000" />
       <workItem from="1611481331465" duration="3269000" />
       <workItem from="1611542973104" duration="11925000" />
+      <workItem from="1611632593496" duration="11067000" />
+      <workItem from="1611734276478" duration="3752000" />
+      <workItem from="1611813372309" duration="3908000" />
+      <workItem from="1613540307197" duration="759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111187000" />
+    <option name="totallyTimeSpent" value="130673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -531,7 +549,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32824427" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -541,7 +558,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.606325" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21268657" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -549,6 +566,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32824427" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -561,377 +579,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/LoginMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="103" lean-forward="true" selection-start-line="13" selection-start-column="103" selection-end-line="13" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/util/ApiResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HELP.md" />
-    <entry file="file://$PROJECT_DIR$/exam-ol.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/ApiResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.hljit:exam-ol:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.hljit:exam-ol:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.hljit:exam-ol:0.0.1-SNAPSHOT</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0/com.baomidou:mybatis-plus-annotation:jar:3.1.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0/org.mybatis:mybatis:jar:3.5.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0/com.github.jsqlparser:jsqlparser:jar:1.4</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/org.mybatis:mybatis-spring:jar:2.0.0</node>
-            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/org.springframework.boot:spring-boot-autoconfigure:jar:2.4.0</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.18.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.springframework.boot:spring-boot-starter-logging:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.springframework.boot:spring-boot-starter-logging:jar:2.4.0/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.springframework.boot:spring-boot-starter-logging:jar:2.4.0/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.springframework.boot:spring-boot-starter-logging:jar:2.4.0/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.springframework.boot:spring-boot-starter-logging:jar:2.4.0/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3/org.apache.logging.log4j:log4j-api:jar:2.13.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.springframework.boot:spring-boot-starter-logging:jar:2.4.0/org.slf4j:jul-to-slf4j:jar:1.7.30</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework.boot:spring-boot-starter:jar:2.4.0/org.yaml:snakeyaml:jar:1.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/com.zaxxer:HikariCP:jar:3.4.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/com.zaxxer:HikariCP:jar:3.4.5/org.slf4j:slf4j-api:jar:1.7.30</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework:spring-jdbc:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.4.0/org.springframework:spring-jdbc:jar:5.3.1/org.springframework:spring-tx:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.11.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-json:jar:2.4.0/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.0/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.39</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.0/org.glassfish:jakarta.el:jar:3.0.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.0/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.39</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework:spring-web:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework:spring-webmvc:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework:spring-webmvc:jar:5.3.1/org.springframework:spring-aop:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework:spring-webmvc:jar:5.3.1/org.springframework:spring-context:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.4.0/org.springframework:spring-webmvc:jar:5.3.1/org.springframework:spring-expression:jar:5.3.1</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.22</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.springframework.boot:spring-boot-test:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3/jakarta.activation:jakarta.activation-api:jar:1.2.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.assertj:assertj-core:jar:3.18.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.hamcrest:hamcrest:jar:2.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-api:jar:5.7.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-api:jar:5.7.0/org.apiguardian:apiguardian-api:jar:1.1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-api:jar:5.7.0/org.opentest4j:opentest4j:jar:1.2.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-api:jar:5.7.0/org.junit.platform:junit-platform-commons:jar:1.7.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-params:jar:5.7.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-engine:jar:5.7.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.junit.jupiter:junit-jupiter:jar:5.7.0/org.junit.jupiter:junit-jupiter-engine:jar:5.7.0/org.junit.platform:junit-platform-engine:jar:1.7.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.mockito:mockito-core:jar:3.6.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.mockito:mockito-core:jar:3.6.0/net.bytebuddy:byte-buddy:jar:1.10.18</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.mockito:mockito-core:jar:3.6.0/net.bytebuddy:byte-buddy-agent:jar:1.10.18</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.mockito:mockito-core:jar:3.6.0/org.objenesis:objenesis:jar:3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.mockito:mockito-junit-jupiter:jar:3.6.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.springframework:spring-core:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.springframework:spring-core:jar:5.3.1/org.springframework:spring-jcl:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.springframework:spring-test:jar:5.3.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.4.0/org.xmlunit:xmlunit-core:jar:2.7.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.4.0/org.springframework.boot:spring-boot:jar:2.4.0</node>
-            <node x="" y="">org.springframework:spring-tx:jar:4.3.9.RELEASE</node>
-            <node x="" y="">org.springframework:spring-tx:jar:4.3.9.RELEASE/org.springframework:spring-beans:jar:5.3.1</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.17012089810017272" x="2296.0" y="525.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hljit/examol/ExamOlApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/dto/DiscussUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/metadata/IPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="147" column="35" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/config/CrossDomainInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/mapper/discusspost-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/mapper/comment-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/hljit/examol/mapper/DiscussPostMapper.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/hljit/examol/mapper/CommentMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/ExamOlApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/comment-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/util/ApiResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/LoginMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="71" lean-forward="true" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
-          <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/StudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -941,11 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="552">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -956,83 +600,365 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/DiscussPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/DiscussPostService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
+        <state relative-caret-position="1632">
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/DiscussPostServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="114" column="38" lean-forward="true" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2777#2778#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2840#2841#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
-            <element signature="e#2978#2979#0" expanded="true" />
-            <element signature="e#3036#3037#0" expanded="true" />
-            <element signature="e#3060#3061#0" expanded="true" />
-            <element signature="e#3112#3113#0" expanded="true" />
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3214#3215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/DiscussPostMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="93" column="66" lean-forward="true" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="41" column="64" lean-forward="true" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2088">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/DiscussPostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="187" column="55" lean-forward="true" selection-start-line="187" selection-start-column="55" selection-end-line="187" selection-end-column="55" />
+        <state relative-caret-position="127">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="87" column="71" lean-forward="true" selection-start-line="87" selection-start-column="71" selection-end-line="87" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="79" column="36" lean-forward="true" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/DiscussPostMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="62" column="141" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/ExamManageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/FillQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/JudgeQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/MultiQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/FillQuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/JudgeQuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/MultiQuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/MultiQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/MultiQuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/JudgeQuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/FillQuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/FillQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/JudgeQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/MultiQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/JudgeQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/FillQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/PaperManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/PaperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/PaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/PaperServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/PaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" column="92" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/AnswerVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/AnswerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/AnswerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/AnswerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/ExamManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/ExamManageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/ExamManageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/AnswerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/service/ScoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/serviceImpl/ScoreServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/ExamManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/mapper/ScoreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/controller/ScoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hljit/examol/entity/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
